@@ -1,0 +1,10 @@
+.block-node {
+  &:hover {
+    .action-menu {
+        @apply block;
+    }
+  }
+  .action-menu {
+      @apply hidden;
+  }
+}
